@@ -1,0 +1,8 @@
+speedtest:
+  port: 8080
+  callback-point: http://example.com:%d/
+  entry-point: https://example.com/
+  allow-origin: https://example.com
+  key-plugin-secret: secret
+  key-plugin-public: pub
+  key-web-public: pub

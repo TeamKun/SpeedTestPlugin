@@ -1,0 +1,24 @@
+name: SpeedTest
+version: ${project.version}
+main: net.teamfruit.speedtest.SpeedTest
+api-version: 1.15
+authors: [Kamesuta]
+
+commands:
+  speedtest:
+    description: Speed Test Link
+    aliases: [spd]
+    permission: speedtest
+    usage: /speedtest
+  speedtestadmin:
+    description: Speed Test Admin
+    aliases: [spdadmin]
+    permission: speedtest.admin
+    usage: /speedtestadmin <on|off|announce>
+permissions:
+  speedtest:
+    description: Speed Test
+    default: true
+  speedtest.admin:
+    description: Speed Test Admin
+    default: op
